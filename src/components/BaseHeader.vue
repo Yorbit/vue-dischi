@@ -14,7 +14,7 @@ export default {
     @import'../styles/colors.scss';
 
     header{
-        background-color: $headerBg;
+        background-color: $headerCoverBg;
         height: 90px;
         padding: 6px 30px;
         i{
