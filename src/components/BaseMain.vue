@@ -39,7 +39,7 @@ export default {
             })
         },
         filterCover(selected){
-            this.filteredCoverType = [...this.songs].filter( (song) => song.type.toLowerCase().includes(selected));
+            this.filteredCoverType = [...this.songs].filter( (song) => song.genre.toLowerCase().includes(selected));
             console.log(this.filteredCoverType);
             
             if (selected == 'all') {
