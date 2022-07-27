@@ -21,3 +21,29 @@ export default {
     }
 }
 </script>
+
+
+<style lang="scss" scoped>
+    @import'../styles/colors.scss';
+    div{
+        align-self: baseline;
+        position: relative;
+        left: 1300px;
+        top: -50px;
+        label{
+            text-transform: uppercase;
+            font-weight: bold;
+            color: black;
+            padding-right: 15px
+        }
+        select{
+            padding: 8px;
+            text-transform: uppercase;
+            font-weight: bold;
+            option{
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+        }
+    }
+</style>

@@ -39,7 +39,7 @@ export default {
         h3{
             color: white;
             margin: 5px 0px;
-            font-weight:500;
+            font-weight: 500;
             text-transform: uppercase;
         }
         p{
